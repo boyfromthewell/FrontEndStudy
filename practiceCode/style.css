@@ -1,0 +1,25 @@
+.container{
+    background: beige;
+    padding-top: 100px;
+    height: 100vh; 
+    display: flex;
+}
+.item{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.item1{
+    background: red;
+    flex: 2 2 auto;
+}
+.item2{
+    background: orange;
+    
+}
+.item3{
+    background: yellow;
+}
+
+
