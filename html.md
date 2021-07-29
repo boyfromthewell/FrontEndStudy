@@ -2,6 +2,7 @@
 
 복습 겸 마크다운 문서 연습하기<br>
 
+여기 미만 잡 -> https://developer.mozilla.org/ko/
 
 * Block - 충분한 공간 있어도 한 줄에 하나 (div)
 * Inline - 공간 있으면 삽입 가능 (p, span)
