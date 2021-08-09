@@ -4,7 +4,7 @@
 'use strict'; // 비상식적인 문법 사용 x 
 
 // 2.variable
-// let( added in es6)
+// let( added in es6) (R/W)
 
 let globalName='global name';
 {
@@ -18,7 +18,7 @@ let globalName='global name';
 
  // var(사용 xxxxxxxxxxxxxx)
 
- // 3. Contants
+ // 3. Contants (READ ONLY)
  // immutable data type
  // -security
  // -thread safety
