@@ -9,7 +9,7 @@
 // Q2. make an array out of a string
 {
   const fruits = "🍎, 🥝, 🍌, 🍒";
-  
+
   const result = fruits.split(","); //꼭 구분자 전달 해줘야함
   console.log(result);
 }
@@ -73,14 +73,21 @@ const students = [
 
 // Q9. compute students' average score
 {
+  const result = students.reduce((prev, curr) => prev + curr.score, 0);
+  console.log(result/students.length);
+  //reduce() -> 배열 요소 돌면서 뭔가 누적할때 쓰기 , reduceRight() -> 배열 뒤 부터
 }
 
 // Q10. make a string containing all the scores
 // result should be: '45, 80, 90, 66, 88'
 {
+  const result=students.map(student=>student.score).join();
+  console.log(result);
 }
 
 // Bonus! do Q10 sorted in ascending order
 // result should be: '45, 66, 80, 88, 90'
 {
+  const result=students.map((student)=>student.score).sort((a,b)=>a-b).join();
+  console.log(result);
 }
