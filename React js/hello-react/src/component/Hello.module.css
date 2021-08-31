@@ -1,0 +1,8 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
+/*파일이름.module.css -> 단독적으로 css적용 (덮어 써지지 않음 )*/
+
+/* 컴포넌트 단위로 관리도 쉽다 */
